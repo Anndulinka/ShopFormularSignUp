@@ -5,21 +5,64 @@
 	<meta charset="UTF-8" />
 </head>
 
-<body bgcolor="(red)" text="white";>
+<body bgcolor="(red)" text="white" ;>
 	<div id="app"></div>
-
+<!--to se dela vykricníkem a dvema pomlčkama a  musi se dvema pomlckama ukoncit-->
 	<script src="src/index.js"></script>
 	<br>
 	<form method="GET">
 		Jméno:<br />
-		<input type="text" name="jmeno" /><br />
+		<input type="text" placeholder="Mikuláš" /><br /> 
 		Příjmení: <br>
-		<input type="text" name="prijmeni" /> <br>
+		<input type="text" placeholder="Novák" /> <br> 
+		Title: <br>
+		<input type="text" placeholder="Sir" /> <br>
+		Are you a...? <br>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="female"> Robot<br>
+		<input type="radio" name="gender" value="other"> Other<br> 
+		Phone number: <br>
+		<input type="text" placeholder="000 000 000" /> <br> 
+		Email: <br>
+		<input type="text" placeholder="@gmail.com" /> <br><br> 
+		ADRESS:<br> Select State:<br>
+		<select name="stat">
+			<option value="cech"> Czech Republic
+			<option value="usa"> USA
+		  <option value="inisa"> India
+			<option value="japan"> Japan
+</option>
+</select>
+		<br> Select Region:<br>
+		<select name="kraj">
+					<option value="prha"> Prague
+					<option value="mrava"> Morava
+				  <option value="cb"> České Budějce
+					<option value="varit"> Karlovy Vary
+		</option>
+		</select>
+		<br> Select City:<br>
+		<select name="kraj">
+			<option value="prha"> Prague
+			<option value="brnmo"> Brno
+		  <option value="cb"> České Budějce
+			<option value="varit"> Karlovy Vary
+</option>
+</select>
+		<br> Street: <br>
+		<input type="text" placeholder="Ulice" /><br /> 
+		House number:<br>
+		<input type="text" placeholder="číslo popisné" /><br /> 
+		Post number:<br>
+		<input type="text" placeholder="PSČ" /><br /><br> 
 		User name:<br />
-		<input type="text" name="jmeno" /><br />
+		<input type="text" placeholder="MickeyMN" /><br /> 
 		Password: <br>
-		<input type="text" name="prijmeni" /> <br>
-	
+		<input type="text" placeholder="********" /> <br><br>
+
+		<input type="checkbox"  /> If you agrre to a shopping spree please mark the checkbox.<br>
+		<input type="submit" value="SUBMIT">
 	</form>
 
 
