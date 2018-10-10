@@ -1,2 +1,0 @@
-# ShopFormularSignUp
-Created with CodeSandbox
