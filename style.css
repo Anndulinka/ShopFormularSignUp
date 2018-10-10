@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+  font-family: normal normal normal, "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  color: rgb(122, 1, 58);
+  margin: 30px 0px 30px 0px;
+}
+body {
+  background-color: rgb(248, 134, 182);
+}
+a {
+  color: rgb(122, 1, 58);
+}
+img {
+  margin: 0px -150px 0px 0px;
+}

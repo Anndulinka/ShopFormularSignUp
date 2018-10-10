@@ -1,16 +1,18 @@
 <html>
-
+<div style="width: 600px; margin-left: auto; margin-right: auto; background-color: rgba(0,0,0,0.30); padding: 20px;">
 <head>
 	<title>Parcel Sandbox</title>
 	<meta charset="UTF-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body bgcolor="(red)" text="white" ;>
-	<div id="app"></div>
+<body bgcolor="(red)" text="white";>
+	<div id="app" ></div>
+
 <!--to se dela vykricníkem a dvema pomlčkama a  musi se dvema pomlckama ukoncit-->
 	<script src="src/index.js"></script>
 	<br>
-	<form method="GET">
+	<form method="GET" autocomplete="on">
 		Jméno:<br />
 		<input type="text" placeholder="Mikuláš" /><br /> 
 		Příjmení: <br>
@@ -26,15 +28,21 @@
 		<input type="text" placeholder="000 000 000" /> <br> 
 		Email: <br>
 		<input type="text" placeholder="@gmail.com" /> <br><br> 
-		ADRESS:<br> Select State:<br>
+		ADRESS:<br> 
+		<img align="right" src="https://assets.rappler.com/612F469A6EA84F6BAE882D2B94A4B421/img/66762AD81C2D4D61A8F87C8B4FDAC237/holiday-shopping.jpg" style="transform:rotate(270deg);>
+		
+		
+		
+		Select State:<br>
 		<select name="stat">
 			<option value="cech"> Czech Republic
 			<option value="usa"> USA
 		  <option value="inisa"> India
 			<option value="japan"> Japan
-</option>
-</select>
-		<br> Select Region:<br>
+			</option>
+		</select>
+		<br> 
+		Select Region:<br>
 		<select name="kraj">
 					<option value="prha"> Prague
 					<option value="mrava"> Morava
@@ -42,15 +50,17 @@
 					<option value="varit"> Karlovy Vary
 		</option>
 		</select>
-		<br> Select City:<br>
+		<br> 
+		Select City:<br>
 		<select name="kraj">
 			<option value="prha"> Prague
 			<option value="brnmo"> Brno
 		  <option value="cb"> České Budějce
 			<option value="varit"> Karlovy Vary
-</option>
-</select>
-		<br> Street: <br>
+			</option>
+		</select>
+		<br> 
+		Street: <br>
 		<input type="text" placeholder="Ulice" /><br /> 
 		House number:<br>
 		<input type="text" placeholder="číslo popisné" /><br /> 
@@ -61,12 +71,14 @@
 		Password: <br>
 		<input type="text" placeholder="********" /> <br><br>
 
-		<input type="checkbox"  /> If you agrre to a shopping spree please mark the checkbox.<br>
+		<input type="checkbox"  /> If you agree to a shopping spree please mark the checkbox.<br>
 		<input type="submit" value="SUBMIT">
 	</form>
 
 
 
-</body>
 
+	<img src="https://media1.tenor.com/images/e23001adb11ab51a4ba6cfe0720a84ef/tenor.gif?itemid=4446432">
+</body>
+</div>
 </html>
